@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Mandala' ;
+    src: url('../components/fonts/Mandala\ Vintage.otf');
+
+}
+
+body{
+    background-color: white;
+    color: rgb(34, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1200px;
+}
+
+h1{
+    font-family: Mandala;
+    line-height: 15px;
+}
+
+h2{
+   color: rgb(132, 14, 201);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    padding: 15px;
+    border-radius: 50px;
+}
+
+header > ul > a:hover{
+    background-color: rgb(132, 14, 201);
+    border-bottom: 1px solid rgb(34, 34, 34);
+    color: white;
+    font-weight: bold;
+    transition: 0.5ms;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+aside{
+    max-width: 30%;
+}
+
+img{
+    max-width:480px;
+}
+
+footer{
+    text-align: center;
+    color: rgb(34, 34, 34);
+}
+
+footer > p{
+    font-size: 8pt;
+    margin-top: 30px;
+}
+
+#link-rodape{
+    color:rgb(132, 14, 201);
+}
