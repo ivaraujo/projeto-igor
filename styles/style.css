@@ -1,19 +1,54 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;    
+}
 body{
-    background-color: white;
+    background-color: rgb(255, 157, 9);
     color: rgb(34, 34, 34);
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto;
     padding: 15px;
-    max-width: 1200px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+section{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 0px 10px black;
+    border: 0;
+    border-radius: 5px;
 }
 
 h1{
     font-family: Mandala;
-    line-height: 15px;
+    line-height: 35px;
+    font-size: 2em;
 }
 
-h2{
-   color: rgb(132, 14, 201);
+#sobrenome{
+    margin-left: 17px;
+}
+
+#titulo{
+   color: black;
+   font-size: 1em;
+   line-height: 5px;
+}
+
+#graduacao{
+    color: rgb(132, 14, 201);
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: gray;
 }
 
 header{
@@ -21,6 +56,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 a{
@@ -35,7 +71,7 @@ header > ul > a:hover{
     background-color: rgb(132, 14, 201);
     border-bottom: 1px solid rgb(34, 34, 34);
     color: white;
-    transition: 0.5ms;
+    transition: 0.5s;
 }
 
 li{
@@ -46,17 +82,19 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 50px;
+    justify-items: center;
+    justify-content: space-between;
 }
 
 aside{
-    width: 30%;
 }
 
-img{
-    max-width: 
-    480px;
+article{
+}
+
+article img{
+    width: 70%;
+    padding: 20px;
 }
 
 footer{
