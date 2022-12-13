@@ -10,8 +10,11 @@
     main{
         flex-direction: column;
     }
-    h2{
-        font-size: 38px;
+    #graduacao{
+        font-size: 3em;        
+    }
+
+    p{
         text-align: center;
     }
 
@@ -20,7 +23,6 @@
     }
 
     img{
-        max-width: 240px;
-        margin-top: 30px;
+        max-width: 100%;
     }
 }

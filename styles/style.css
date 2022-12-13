@@ -1,5 +1,5 @@
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;    
 }
@@ -8,19 +8,32 @@ body{
     color: rgb(34, 34, 34);
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
-    width: 100%;
-    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 
 section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 80%;
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 80px;
-    padding: 15px;
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 0px 10px black;
     border: 0;
     border-radius: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 100%;
 }
 
 h1{
@@ -51,13 +64,6 @@ p{
     color: gray;
 }
 
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 50px;
-}
 
 a{
     text-decoration: none;
@@ -84,27 +90,29 @@ main{
     align-items: center;
     justify-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 aside{
+    padding: 30px;
 }
 
 article{
+    padding: 30px;
 }
 
 article img{
-    width: 70%;
-    padding: 20px;
+    width: 100%;
 }
 
 footer{
     text-align: center;
     color: rgb(34, 34, 34);
+    padding: 35px;
 }
 
 footer > p{
     font-size: 8pt;
-    margin-top: 30px;
 }
 
 #link-rodape{
