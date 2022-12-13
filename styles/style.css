@@ -40,10 +40,12 @@ h1{
     font-family: Mandala;
     line-height: 35px;
     font-size: 2em;
+    color: rgb(132, 14, 201);
 }
 
 #sobrenome{
     margin-left: 17px;
+    color: gray
 }
 
 #titulo{
